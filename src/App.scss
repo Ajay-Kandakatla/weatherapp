@@ -1,0 +1,55 @@
+@import './Components/CityList';
+@import './Components/CityDetails';
+
+.App{
+  .layout {
+      margin-top: 2%;
+      display: flex;
+      justify-content: space-around;
+      }
+  .header{
+      .navigation {
+          list-style: none;
+          margin: 0;;
+          background: brown;
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-flex-flow: row wrap;
+          justify-content: space-between;
+
+          .notifications-icon {  
+              color: yellow;
+              zoom: 3;
+                }
+              }
+      .navigation a {
+          text-decoration: none;
+          background: brown;
+          display: block;
+          padding: 1em;
+          color: white;
+          }
+      .navigation a:hover {
+          background: darken(deepskyblue, 2%);
+            }
+          }
+      }
+        
+        
+@media all and (max-width: 800px) {
+  .navigation{
+    justify-content: space-around;
+}
+}
+    
+        
+    
+            
+
+
+                    
+  
+

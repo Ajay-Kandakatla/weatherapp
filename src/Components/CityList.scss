@@ -1,0 +1,37 @@
+.city-list{
+    padding: 3%;
+    border-radius: 5px;
+    width: 30%;
+    .city-list-container{
+        .city-tile{
+            color:white;
+            text-align: center;
+            margin:8px;
+            background : rgba(0,0,255,0.2);
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+            transition: 0.3s;
+            h3{
+                background: rgba(230, 230, 230, 0.2);
+                border-radius: 5px;
+
+            }
+        }
+        .city-tile:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+        }
+       
+
+        
+    }
+    .select{
+        .Select-menu-outer{
+            .listbox .ReactVirtualized__Grid__innerScrollContainer .VirtualizedSelectOption{ 
+                color: black;
+                font-weight: 600;
+        }
+
+        }
+        
+    }
+}
