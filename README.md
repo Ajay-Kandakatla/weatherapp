@@ -1,1 +1,1 @@
-This project is created with the create-react-app. This application shows you the real time weather. I have used React-bootstrap, Openweather map API, which is an [open source API] (https://openweathermap.org/forecast5).
+This project is created with the create-react-app. This application shows you the real time weather. I have used React-bootstrap, Openweather map API, which is an [open source API] (https://openweathermap.org/forecast5). You can access the App at https://accessory-grid.000webhostapp.com/
